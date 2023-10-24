@@ -23,7 +23,7 @@ struct Animal {
                 cout << "just walking" << endl;
                 break;
             default:
-                cout << "*This animal can't do anything, maybe it's dead*" << endl;
+                cout << "This animal can't do anything, maybe it's dead" << endl;
                 break;
         }
     }
@@ -31,13 +31,13 @@ struct Animal {
     void sound(){
         switch (type) {
             case FISH:
-                cout << "and makes clicking sound underwater" << endl;
+                cout << "makes clicking sound underwater" << endl;
                 break;
             case BIRD:
-                cout << "and chirps" << endl;
+                cout << "chirps" << endl;
                 break;
             case MAMMAL:
-                cout << "and makes a mammal sound" << endl;
+                cout << "makes a mammal sound" << endl;
                 break;
             default:
                 cout << "This animal can't make any sound, maybe it's dead" << endl;
